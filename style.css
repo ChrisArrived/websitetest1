@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    background: white;
+    text-align: center;
+    list-style: none;
+    font-family: "Dosis";
+}
+
+ul {
+  list-style: none;
+}
+    
+h1 {
+color: black;
+font-size: 30px;
+font-weight: 700;  
+line-height: 2;
+}
+
+h2 {
+color: black;
+font-size: 25px;
+font-weight: 700;
+line-height: 1.8;
+}
+
+h3 {
+color: black;
+font-size: 23px;
+font-weight: 700;
+list-style: none;
+line-height: 2.3;
+}
+
+p {
+color: black;
+margin-right: 60px;
+margin-left: 60px;
+font-size: 20px;
+font-weight: 500;
+line-height: 1.8;
+}
+
+.button {
+  background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button2 {border-radius: 8px;}
