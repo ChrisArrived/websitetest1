@@ -12,11 +12,17 @@
         <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;700&display=swap" rel="stylesheet">
     </head>
     <body>
-<h1>YouTube Thingy</h1>
+<h1 id="demo">YouTube Thingy</h1>
 
 <script>
     fetch('https://www.googleapis.com/youtube/v3/channels?part=statistics&id=UC4TucIqWiRkUX8PHAXP9gXw&key=AIzaSyDDgnDl7D8slouF6wgT7iFjxVsnWleft-M')
+    .then(res =>{
+        return res.json();
+    })
+    .then(data=>{
+        console.log(curr)
+    })
+    document.getElementById("demo").innerHTML = "test"
 </script>
 
 <button class="button button2" onclick="window.location.href='gaming.html';">Start</button>  
-
