@@ -20,9 +20,11 @@
         return res.json();
     })
     .then(data=>{
-        console.log(curr)
+        data.items.forEach((curr)=>{
+            console.log(curr);
+        })
     })
-    document.getElementById("demo").innerHTML = "test"
+    document.getElementById("demo").innerHTML = "test2"
 </script>
 
 <button class="button button2" onclick="window.location.href='gaming.html';">Start</button>  
